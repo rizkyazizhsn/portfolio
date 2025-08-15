@@ -15,11 +15,9 @@ export default function Home() {
     requestAnimationFrame(raf)
   }, [])
   return (
-    <main className="relative overflow-hidden bg-white">
+    <main className="relative overflow-hidden bg-black">
       <Navbar />
-      <div className="h-dvh">
-        
-      </div>
+      <div className="h-dvh" />
     </main>
   );
 }

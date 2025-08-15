@@ -55,16 +55,15 @@ const Navbar = () => {
     <>
       <motion.header
         ref={headerRef}
-        initial={{ y: "-100%" }}
-        animate={{ y: 0 }}
-        transition={{ ease: "easeOut", duration: 0.3 }}
-        className="bg-black"
+        initial={{ opacity: 0, y: "-100%" }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ ease: "easeOut", duration: 0.6 }}
       >
         <div className="container">
           <motion.div
             variants={hideNavItemsVariant}
             animate={isOpen ? "open" : "close"}
-            className="flex items-center justify-between py-4"
+            className="flex items-center justify-between py-5"
           >
             {/* Logo */}
             <Logo />
