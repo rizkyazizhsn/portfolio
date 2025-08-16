@@ -7,7 +7,7 @@ const About = () => {
   return (
     <section className="relative py-14 sm:py-40">
       <div className="container">
-        <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-20">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-20">
           {/* Left Content */}
           <div className="flex flex-col">
             <motion.div
@@ -62,16 +62,16 @@ const About = () => {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: false }}
                   transition={{ ease: "easeOut", duration: 0.5, delay: 0.3 }}
-                  className="md:text-7xl font-medium"
+                  className="text-6xl md:text-7xl font-medium"
                 >
                   5+
                 </motion.h3>
                 <motion.p
                   initial={{ opacity: 0, y: "20%" }}
                   whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: false }}
+                  viewport={{ once: true }}
                   transition={{ ease: "easeOut", duration: 0.5, delay: 0.4 }}
-                  className="md:text-xl"
+                  className="text-xl"
                 >
                   Years of Experience
                 </motion.p>
@@ -81,18 +81,18 @@ const About = () => {
                 <motion.h3
                   initial={{ opacity: 0, y: "20%" }}
                   whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: false }}
+                  viewport={{ once: true }}
                   transition={{ ease: "easeOut", duration: 0.5, delay: 0.5 }}
-                  className="md:text-7xl font-medium"
+                  className="text-6xl md:text-7xl font-medium"
                 >
                   10+
                 </motion.h3>
                 <motion.p
                   initial={{ opacity: 0, y: "20%" }}
                   whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: false }}
+                  viewport={{ once: true }}
                   transition={{ ease: "easeOut", duration: 0.5, delay: 0.6 }}
-                  className="md:text-xl"
+                  className="text-xl"
                 >
                   Satisfied Clients.
                 </motion.p>
@@ -101,7 +101,7 @@ const About = () => {
             <motion.div
               initial={{ opacity: 0, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: false }}
+              viewport={{ once: true }}
               transition={{ ease: "easeOut", duration: 0.3, delay: 0.4 }}
               className="bg-gray-400 rounded-lg w-full h-80 animate-pulse"
             ></motion.div>
@@ -111,7 +111,7 @@ const About = () => {
             <motion.div
               initial={{ width: 0 }}
               whileInView={{ width: "100%" }}
-              viewport={{ once: false }}
+              viewport={{ once: true }}
               transition={{ ease: "easeOut", duration: 0.5, delay: 0.4 }}
               className="rounded-lg bg-white w-full h-40 origin-left animate-pulse"
             ></motion.div>
@@ -120,7 +120,7 @@ const About = () => {
                 <motion.div
                   initial={{ scale: 0 }}
                   whileInView={{ scale: 1 }}
-                  viewport={{ once: false }}
+                  viewport={{ once: true }}
                   transition={{ ease: "easeOut", duration: 0.3, delay: 0.8 }}
                 >
                   <SiTarget className="size-6 shrink-0" />
@@ -128,7 +128,7 @@ const About = () => {
                 <motion.p
                   initial={{ opacity: 0, y: "20%" }}
                   whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: false }}
+                  viewport={{ once: true }}
                   transition={{ ease: "easeOut", duration: 0.5, delay: 0.5 }}
                   className="leading-relaxed tracking-wide"
                 >
@@ -141,7 +141,7 @@ const About = () => {
                 <motion.div
                   initial={{ scale: 0 }}
                   whileInView={{ scale: 1 }}
-                  viewport={{ once: false }}
+                  viewport={{ once: true }}
                   transition={{ ease: "easeOut", duration: 0.3, delay: 0.8 }}
                 >
                   <SiTarget className="size-6 shrink-0" />
@@ -149,7 +149,7 @@ const About = () => {
                 <motion.p
                   initial={{ opacity: 0, y: "20%" }}
                   whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: false }}
+                  viewport={{ once: true }}
                   transition={{ ease: "easeOut", duration: 0.5, delay: 0.5 }}
                   className="leading-relaxed tracking-wide"
                 >
