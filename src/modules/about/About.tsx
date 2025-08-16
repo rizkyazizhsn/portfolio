@@ -13,7 +13,7 @@ const About = () => {
             <motion.div
               initial={{ opacity: 0, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: false }}
+              viewport={{ once: true }}
               transition={{ ease: "easeOut", duration: 0.4, delay: .3 }}
             >
               <Badge className="px-4 !bg-white/10">
@@ -24,16 +24,16 @@ const About = () => {
               <motion.h2
                 initial={{ opacity: 0, y: "20%" }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: false }}
+                viewport={{ once: true }}
                 transition={{ ease: "easeOut", duration: 0.7, delay: .3 }}
-                className="text-5xl"
+                className="text-3xl md:text-5xl"
               >
                 About Me
               </motion.h2>
               <motion.p
                 initial={{ opacity: 0, y: "20%" }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: false }}
+                viewport={{ once: true }}
                 transition={{ ease: "easeOut", duration: 0.7, delay: .4 }}
                 className="mt-5 text-base tracking-wide leading-relaxed text-white/80"
               >
@@ -50,7 +50,7 @@ const About = () => {
           <motion.div
             initial={{ opacity: 0, y: "20%" }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: false }}
+            viewport={{ once: true }}
             transition={{ ease: "easeOut", duration: 0.4 }}
             className="bg-white rounded-lg p-5 flex flex-col items-center justify-between h-[28rem]"
           >
@@ -60,7 +60,7 @@ const About = () => {
                 <motion.h3
                   initial={{ opacity: 0, y: "20%" }}
                   whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: false }}
+                  viewport={{ once: true }}
                   transition={{ ease: "easeOut", duration: 0.5, delay: 0.3 }}
                   className="text-6xl md:text-7xl font-medium"
                 >
