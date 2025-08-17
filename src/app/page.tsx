@@ -2,9 +2,11 @@
 import Lenis from "lenis";
 import { useEffect } from "react";
 import Hero from "@/modules/hero/Hero";
+import Work from "@/modules/work/Work";
 import About from "@/modules/about/About";
 import Navbar from "@/components/layout/Navbar";
 import Experience from "@/modules/experience/Experience";
+import Client from "@/modules/client/Client";
 
 export default function Home() {
   useEffect(() => {
@@ -23,6 +25,8 @@ export default function Home() {
       <Hero />
       <About />
       <Experience />
+      <Work />
+      <Client />
     </main>
   );
 }
