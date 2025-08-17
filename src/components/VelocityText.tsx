@@ -12,7 +12,7 @@ import {
 import { useRef } from "react";
 
 type VelocityTextProps = {
-  children: string;
+  children: React.ReactNode;
   baseVelocity: number;
   className?: string;
 };
