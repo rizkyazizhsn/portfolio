@@ -48,7 +48,7 @@ const Hero = () => {
                   animate={{ y: 0 }}
                   transition={{ duration: 0.5, delay: 0.3, ease: "easeOut" }}
                 >
-                  for building interactive
+                  for building dynamic
                 </motion.span>
               </h1>
               <h1 className="flex items-center overflow-hidden">
