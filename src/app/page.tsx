@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import Hero from "@/modules/hero/Hero";
 import About from "@/modules/about/About";
 import Navbar from "@/components/layout/Navbar";
+import Experience from "@/modules/experience/Experience";
 
 export default function Home() {
   useEffect(() => {
@@ -21,7 +22,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <About />
-      <div className="h-dvh" />
+      <Experience />
     </main>
   );
 }
