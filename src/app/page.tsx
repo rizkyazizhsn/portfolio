@@ -5,6 +5,7 @@ import Hero from "@/modules/hero/Hero";
 import About from "@/modules/about/About";
 import Navbar from "@/components/layout/Navbar";
 import Experience from "@/modules/experience/Experience";
+import Work from "@/modules/work/Work";
 
 export default function Home() {
   useEffect(() => {
@@ -23,6 +24,7 @@ export default function Home() {
       <Hero />
       <About />
       <Experience />
+      <Work />
     </main>
   );
 }
