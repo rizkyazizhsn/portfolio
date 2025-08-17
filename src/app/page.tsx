@@ -1,8 +1,9 @@
 "use client";
-import Navbar from "@/components/layout/Navbar";
-import Hero from "@/modules/hero/Hero";
 import Lenis from "lenis";
 import { useEffect } from "react";
+import Hero from "@/modules/hero/Hero";
+import About from "@/modules/about/About";
+import Navbar from "@/components/layout/Navbar";
 
 export default function Home() {
   useEffect(() => {
@@ -19,6 +20,7 @@ export default function Home() {
     <main className="relative overflow-hidden">
       <Navbar />
       <Hero />
+      <About />
       <div className="h-dvh" />
     </main>
   );

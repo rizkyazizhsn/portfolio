@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 
 const Hero = () => {
   return (
-    <section className="container relative py-10">
+    <section className="container relative py-24">
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -97,7 +97,7 @@ const Hero = () => {
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 0.5 }}
-            className="h-80 w-56 md:h-[550px] md:w-[400px] bg-primary"
+            className="h-80 w-56 md:h-[550px] md:w-[400px] bg-primary animate-pulse rounded-lg"
           ></motion.div>
         </div>
       </div>
