@@ -97,7 +97,7 @@ const Hero = () => {
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 0.5 }}
-            className="h-80 w-56 md:h-[550px] md:w-[400px] bg-primary animate-pulse rounded-lg"
+            className="h-80 w-56 md:h-[550px] md:w-[400px] bg-primary rounded-lg"
           ></motion.div>
         </div>
       </div>

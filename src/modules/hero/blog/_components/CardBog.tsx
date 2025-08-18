@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const CardBog = () => {
   return (
-    <div className="rounded-lg bg-white/10 group cursor-pointer p-3">
+    <div className="rounded-lg bg-white/10 backdrop-blur-lg group cursor-pointer p-3">
       <div className="rounded-lg overflow-hidden w-full h-60">
         <Image
           src={
@@ -11,7 +11,7 @@ const CardBog = () => {
           alt="blog"
           width={500}
           height={500}
-          className="object-cover rounded-lg group-hover:scale-105 group-hover:rotate-2 transition-transform duration-500"
+          className="object-cover rounded-lg group-hover:scale-105 group-hover:rotate-2 transition-transform duration-500 will-change-transform"
         />
       </div>
       <div className="py-4">
