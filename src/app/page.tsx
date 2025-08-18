@@ -29,6 +29,7 @@ export default function Home() {
       <Work />
       <Client />
       <Blog />
+      <div className="h-dvh" />
     </main>
   );
 }

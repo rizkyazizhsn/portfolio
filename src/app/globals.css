@@ -4,19 +4,21 @@
   --background: #ffffff;
   --foreground: #171717;
   --primary: #5e3aee;
+  --gray: #82808c;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-primary: var(--primary);
+  --color-gray: var(--gray);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #0b0913;
     --foreground: #ededed;
   }
 }
