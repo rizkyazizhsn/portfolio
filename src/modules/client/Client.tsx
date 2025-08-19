@@ -21,12 +21,12 @@ const Client = () => {
           transition={{ ease: "easeOut", duration: 0.4, delay: 0.3 }}
         >
           <Badge className="px-4 !bg-white/10 mx-auto">
-            <span className="text-xs sm:text-sm">
+            <h2 className="text-xs sm:text-sm">
               Great companies experiences
-            </span>
+            </h2>
           </Badge>
         </motion.div>
-        <motion.h2
+        <motion.p
           initial={{ opacity: 0, y: "20%" }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -34,7 +34,7 @@ const Client = () => {
           className="text-3xl md:text-5xl"
         >
           Clients I&apos;ve Collaborated With
-        </motion.h2>
+        </motion.p>
       </div>
       {/* Clients */}
       <div className="mt-5 md:mt-10">

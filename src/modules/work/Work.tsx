@@ -29,10 +29,10 @@ const Work = () => {
           transition={{ ease: "easeOut", duration: 0.4, delay: 0.3 }}
         >
           <Badge className="px-4 !bg-white/10 mx-auto">
-            <span className="text-xs sm:text-sm">Portfolio</span>
+            <h2 className="text-xs sm:text-sm">Portfolio</h2>
           </Badge>
         </motion.div>
-        <motion.h2
+        <motion.p
           initial={{ opacity: 0, y: "20%" }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -40,7 +40,7 @@ const Work = () => {
           className="text-3xl md:text-5xl"
         >
           The work I do, <br /> and business I help.
-        </motion.h2>
+        </motion.p>
       </div>
       {/* Projects */}
       <div className="mt-5 md:mt-14">

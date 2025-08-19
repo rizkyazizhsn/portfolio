@@ -24,12 +24,12 @@ const Header = ({
           className="w-fit"
         >
           <Badge className="px-4 !bg-white/10">
-            <span className="text-xs sm:text-sm">
+            <h2 className="text-xs sm:text-sm">
               {title}
-            </span>
+            </h2>
           </Badge>
         </motion.div>
-        <motion.h2
+        <motion.p
           initial={{ opacity: 0, y: "20%" }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -37,7 +37,7 @@ const Header = ({
           className="text-3xl md:text-5xl"
         >
           {subTitle}
-        </motion.h2>
+        </motion.p>
       </div>
     </>
   );

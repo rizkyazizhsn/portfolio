@@ -13,10 +13,10 @@ const Experience = () => {
           transition={{ ease: "easeOut", duration: 0.4, delay: 0.3 }}
         >
           <Badge className="px-4 !bg-white/10">
-            <span className="text-xs sm:text-sm">Experiences</span>
+            <h2 className="text-xs sm:text-sm">Experiences</h2>
           </Badge>
         </motion.div>
-        <motion.h2
+        <motion.p
           initial={{ opacity: 0, y: "20%" }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -24,7 +24,7 @@ const Experience = () => {
           className="text-3xl md:text-5xl"
         >
           Proven Track Record in Building Modern Web Applications
-        </motion.h2>
+        </motion.p>
       </div>
       {/* Experiences list */}
       <div className="mt-5 md:mt-14">
@@ -42,15 +42,15 @@ const Experience = () => {
             className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-0 justify-between border-b border-white/10 py-10"
           >
             <div className="md:space-y-3">
-              <h2 className="text-lg md:text-2xl leading-tight">
+              <h3 className="text-lg md:text-2xl leading-tight">
                 {item.title}
-              </h2>
+              </h3>
               <p className="md:text-base opacity-70">{item.date}</p>
             </div>
             <div className="md:space-y-3">
-              <h2 className="text-lg md:text-2xl leading-tight">
+              <h4 className="text-lg md:text-2xl leading-tight">
                 {item.company}
-              </h2>
+              </h4>
               <p className="md:text-base opacity-70">{item.location}</p>
             </div>
             <div className="flex items-center flex-wrap md:justify-end gap-2">

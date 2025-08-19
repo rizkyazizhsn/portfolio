@@ -30,7 +30,7 @@ const About = () => {
               >
                 About Me
               </motion.h2>
-              <motion.p
+              <motion.h3
                 initial={{ opacity: 0, y: "20%" }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
@@ -43,7 +43,7 @@ const About = () => {
                 to build products that are both delightful and performant.{" "}
                 <br />
                 Ready to bring your next project to life?
-              </motion.p>
+              </motion.h3>
             </div>
           </div>
           {/* Center Content */}
@@ -57,7 +57,7 @@ const About = () => {
             <div className="flex items-center gap-x-5 h-full">
               {/* Experience */}
               <div className="text-slate-800 text-center">
-                <motion.h3
+                <motion.p
                   initial={{ opacity: 0, y: "20%" }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
@@ -65,7 +65,7 @@ const About = () => {
                   className="text-6xl md:text-7xl font-medium"
                 >
                   5+
-                </motion.h3>
+                </motion.p>
                 <motion.p
                   initial={{ opacity: 0, y: "20%" }}
                   whileInView={{ opacity: 1, y: 0 }}
@@ -78,7 +78,7 @@ const About = () => {
               </div>
               {/* Clients */}
               <div className="text-slate-800 text-center">
-                <motion.h3
+                <motion.p
                   initial={{ opacity: 0, y: "20%" }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
@@ -86,7 +86,7 @@ const About = () => {
                   className="text-6xl md:text-7xl font-medium"
                 >
                   10+
-                </motion.h3>
+                </motion.p>
                 <motion.p
                   initial={{ opacity: 0, y: "20%" }}
                   whileInView={{ opacity: 1, y: 0 }}

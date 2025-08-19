@@ -32,26 +32,26 @@ const Hero = () => {
             <span className="text-xs sm:text-sm">Available for work</span>
           </motion.div>
           <div className="space-y-6">
-            <div className="text-5xl sm:text-4xl md:text-6xl md:leading-16">
-              <h1 className="flex items-center overflow-hidden">
+            <h1 className="text-5xl sm:text-4xl md:text-6xl md:leading-16">
+              <div className="flex items-center overflow-hidden">
                 <motion.span
                   initial={{ y: "100%" }}
                   animate={{ y: 0 }}
                   transition={{ duration: 0.5, delay: 0.1, ease: "easeOut" }}
                 >
-                  Your trusted partner
+                  Your trusted partner&nbsp;
                 </motion.span>
-              </h1>
-              <h1 className="flex items-center overflow-hidden">
+              </div>
+              <div className="flex items-center overflow-hidden">
                 <motion.span
                   initial={{ y: "100%" }}
                   animate={{ y: 0 }}
                   transition={{ duration: 0.5, delay: 0.3, ease: "easeOut" }}
                 >
-                  for building dynamic
+                  for building dynamic&nbsp;
                 </motion.span>
-              </h1>
-              <h1 className="flex items-center overflow-hidden">
+              </div>
+              <div className="flex items-center overflow-hidden">
                 <motion.span
                   initial={{ y: "100%" }}
                   animate={{ y: 0 }}
@@ -59,15 +59,15 @@ const Hero = () => {
                 >
                   web experiences
                 </motion.span>
-              </h1>
-            </div>
+              </div>
+            </h1>
             <motion.p
               initial={{ y: "50%", opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.5 }}
               className="text-base md:text-lg sm:w-3/4"
             >
-              With 5+ years of frontend expertise, I craft clean, performant,
+              Frontend Developer With 5+ years of frontend expertise, I craft clean, performant,
               and delightful experiences powered by modern technologies.
             </motion.p>
           </div>
