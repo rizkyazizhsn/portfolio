@@ -8,6 +8,7 @@ import Blog from "@/modules/hero/blog/Blog";
 import Client from "@/modules/client/Client";
 import Navbar from "@/components/layout/Navbar";
 import Experience from "@/modules/experience/Experience";
+import Contact from "@/modules/contact/Contact";
 
 export default function Home() {
   useEffect(() => {
@@ -29,7 +30,7 @@ export default function Home() {
       <Work />
       <Client />
       <Blog />
-      <div className="h-dvh" />
+      <Contact />
     </main>
   );
 }
