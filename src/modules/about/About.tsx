@@ -2,6 +2,7 @@ import Badge from "@/components/common/Badge";
 import { SiTarget } from "react-icons/si";
 import { motion } from "motion/react";
 import VelocityText from "@/components/VelocityText";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -103,8 +104,10 @@ const About = () => {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ ease: "easeOut", duration: 0.3, delay: 0.4 }}
-              className="bg-gray-400 rounded-lg w-full h-80 animate-pulse"
-            ></motion.div>
+              className="rounded-lg w-full h-80 overflow-hidden"
+            >
+              <Image src="/img/about-1.jpg" width={500} height={320} alt="about" className="size-full object-cover" />
+            </motion.div>
           </motion.div>
           {/* Right Content */}
           <div className="flex flex-col gap-y-10">
@@ -113,8 +116,10 @@ const About = () => {
               whileInView={{ width: "100%" }}
               viewport={{ once: true }}
               transition={{ ease: "easeOut", duration: 0.5, delay: 0.4 }}
-              className="rounded-lg bg-white w-full h-40 origin-left animate-pulse"
-            ></motion.div>
+              className="rounded-lg bg-white overflow-hidden w-full h-40 origin-left"
+            >
+              <Image src="/img/about-3.png" width={500} height={160} alt="about" className="size-full object-cover object-left" />
+            </motion.div>
             <ul className="space-y-4">
               <li className="flex items-start gap-x-4">
                 <motion.div
