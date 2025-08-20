@@ -98,7 +98,7 @@ const NavbarListMobile = ({
 
   return (
     <motion.nav
-      className={["fixed inset-0 w-full bg-black", className].join(" ")}
+      className={["fixed inset-0 w-full bg-black/80 backdrop-blur-md z-50", className].join(" ")}
       variants={navVariant}
       initial="close"
       animate={isOpen ? "open" : "close"}
@@ -120,7 +120,7 @@ const NavbarListMobile = ({
       </motion.button>
       <motion.ul
         variants={ulVariant}
-        className="flex flex-col justify-center items-center h-full gap-y-7 overflow-hidden"
+        className="flex flex-col justify-center items-center h-full gap-y-10 overflow-hidden"
       >
         {MENU_LIST.map(({ title, href, disabled }) => (
           <Fragment key={title}>
@@ -128,7 +128,7 @@ const NavbarListMobile = ({
               <li className="overflow-y-hidden">
                 <motion.div variants={liVariant}>
                   <a
-                    className="relative text-white text-xl after:h-[1px] after:bg-white after:absolute after:left-0 after:w-full after:-bottom-1.5 after:origin-bottom-right after:scale-x-0 hover:after:scale-x-100 hover:after:origin-bottom-left after:transition-transform after:duration-300"
+                    className="relative text-white text-2xl after:h-[1px] after:bg-white after:absolute after:left-0 after:w-full after:-bottom-1.5 after:origin-bottom-right after:scale-x-0 hover:after:scale-x-100 hover:after:origin-bottom-left after:transition-transform after:duration-300"
                     href={href}
                   >
                     {title}
