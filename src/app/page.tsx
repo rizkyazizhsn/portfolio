@@ -19,18 +19,20 @@ export default function Home() {
       requestAnimationFrame(raf);
     }
 
-    requestAnimationFrame(raf)
-  }, [])
+    requestAnimationFrame(raf);
+  }, []);
   return (
-    <main className="relative overflow-hidden">
+    <>
       <Navbar />
-      <Hero />
-      <About />
-      <Experience />
-      <Work />
-      <Client />
-      <Blog />
-      <Contact />
-    </main>
+      <main className="relative overflow-hidden">
+        <Hero />
+        <About />
+        <Experience />
+        <Work />
+        <Client />
+        <Blog />
+        <Contact />
+      </main>
+    </>
   );
 }
